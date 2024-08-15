@@ -1,1 +1,21 @@
-/*Ini Adalah CSS*/
+body {
+    display: flex;
+}
+form {
+    background-color: whitesmoke;
+}
+input {
+    background-color: white;
+    border-color: black;
+    border-radius: 3px;
+    margin-top: 2px;
+}
+.BMI {
+    background-color: skyblue;
+    color: black;
+}
+button {
+    padding: 5px;
+    border-radius: 3px;
+    margin-top: 25px;
+}

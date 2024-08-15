@@ -7,8 +7,38 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
- 
+<section>
+    <header>Berat badan adalah impian semua orang. Tidak hanya memiliki bentuk tubuh yang menunjang penampilan, berat badan ideal juga menandakan kondisi tubuh yang sehat. Bagaimana denganmu? Yuk, hitung sekarang di Kalkulator BMI.</header>
+    <form>
+        <div>
+            <p><b>Jenis Kelamin</b></p>
+                <input type="radio" id="laki-laki" value="laki-laki" name="kelamin">
+                <label for="laki-laki">Laki-laki</label>
+                <input type="radio" id="perempuan" value="perempuan" name="kelamin">
+                <label for="laki-laki">Perempuan</label>
+            <p>Berat Badan (kg)</p>
+                <input id="bb" type="number" placeholder="Berat badan anda">
+                <p>Usia (tahun)</p>
+                <input id="usia" type="number" placeholder="Usia anda sekarang">
+                <p>Tinggi Badan (cm)</p>
+                <input id="tb" type="number" placeholder="Tinggi badan anda">
+                    <br>
+                <button onclick="BMI()" class="BMI">Hitung BMI</button>
+                <button type="reset">Reset</button>
+        </div>
+    </form>
+<article>
+    <h4>Keunggulan fitur</h4>
+    <ol>
+        <li>Menghitung berat badan</li>
+        <li>Menentukan kategori berat badan ideal atau tidak</li>
+        <li>Mempersiapkan program penurunan badan </li>
+    </ol>
+    <p>Kalkulator ini hanya boleh digunakan oleh orang dewasa (wanita hamil atau menyusui tidak boleh mengandalkan pembacaan BMI ini) dan tidak ada tindakan yang harus diambil berdasarkan nilainya selain berkonsultasi dengan orang yang memenuhi syarat seperti dokter.</p>
+    <br>
+    <p>Kalkulator akan memberi Anda gambaran tentang perbandingan berat badan Anda dengan nilai umum, Indeks Makka Tubuh (BMI) dihitung sebagai berat badan Anda(dalam kilogram) dibagi dengan kuadrat tinggi badan Anda(dalam meter) atau BMI = kg/M<sup>2</sup>.</p>
+</article>
+</section>
 <script src="script.js"></script>    
 </body>
 </html>
