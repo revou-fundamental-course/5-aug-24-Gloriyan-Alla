@@ -1,5 +1,7 @@
 body {
     display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%; ;
 }
 form {
     background-color: whitesmoke;
@@ -8,7 +10,7 @@ input {
     background-color: white;
     border-color: black;
     border-radius: 3px;
-    margin-top: 2px;
+    margin-bottom: 25px;
 }
 .BMI {
     background-color: skyblue;
@@ -18,4 +20,7 @@ button {
     padding: 5px;
     border-radius: 3px;
     margin-top: 25px;
+}
+.container p{
+    margin: 1px;
 }
